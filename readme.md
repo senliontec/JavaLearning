@@ -11,10 +11,12 @@ e.g. for Linux users with vscode.
 4. sudo bin/jlink --module-path jmods --add-modules java.desktop --output jre
 
 5. sudo vim ~/.bashrc
-
    export JAVA_HOME=/usr/lib/jvm/jdk-15.0.2
+
    export JRE_HOME=${JAVA_HOME}/jre
+
    export CLASSPATH=.:${JAVA_HOME}/lib:${JRE_HOME}/lib
+   
    export PATH=${JAVA_HOME}/bin:$PATH
 
 6. source ~/.bashrc
