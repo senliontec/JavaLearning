@@ -16,7 +16,7 @@ e.g. for Linux users with vscode.
    export JRE_HOME=${JAVA_HOME}/jre
 
    export CLASSPATH=.:${JAVA_HOME}/lib:${JRE_HOME}/lib
-   
+
    export PATH=${JAVA_HOME}/bin:$PATH
 
 6. source ~/.bashrc
@@ -24,10 +24,15 @@ e.g. for Linux users with vscode.
 7. open vscode and install the floowing dependencies.
 
    Language Support for Java™ by Red Hat
+
    Debugger for Java
+
    Java Test Runner
+
    Maven for Java
+
    Java Dependency Viewer
+   
    Project Manager for Java
 
 
