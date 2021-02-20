@@ -35,5 +35,8 @@ e.g. for Linux users with vscode.
    
    Project Manager for Java
 
+   Java Extension Pack
+
+
 
 8. enjoys
